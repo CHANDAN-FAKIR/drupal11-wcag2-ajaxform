@@ -1,0 +1,15 @@
+how to integrate facet with drupal.
+facet is used to search define items which is configred you in facet search.
+    1. need ful module to configred facet   
+        a. facet
+        b. search_api
+        c. database search
+        d. batter expose filter
+    2. let's configure facet
+        a. create data server which is located at = admin/config/search/search-api
+        b. create data index which is same located as above
+        c. create field in the index.
+        d. create view for test the search features.
+        e. create facet config located at = admin/config/search/facets
+        f. Finaly place facet block where you want.
+    Note: above block doesn't accecible any location except created above view.
